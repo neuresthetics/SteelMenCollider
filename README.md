@@ -1,5 +1,7 @@
 # Steel Men Collider Framework
 
+![Steel Men Collider – Collision Chamber](https://github.com/neuresthetics/SteelMenCollider/blob/main/img/c1fc254e-03dd-4105-8e99-07c8bd9b0467.jpeg?raw=true)
+
 A token-hungry, adversarial, first-principles reasoning superweapon built for the age of superintelligent disagreement.
 
 This is not a prompt. This is a particle accelerator for arguments.
