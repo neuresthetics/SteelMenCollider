@@ -1,6 +1,6 @@
 # Steel Men Collider Framework
 
-![Steel Men Collider – Collision Chamber](https://github.com/neuresthetics/SteelMenCollider/blob/main/img/c1fc254e-03dd-4105-8e99-07c8bd9b0467.jpeg?raw=true)
+![Steel Men Collider – Collision Chamber](https://github.com/neuresthetics/SteelMenCollider/blob/main/img/SMChoiz.png?raw=true)
 
 A token-hungry, adversarial, first-principles reasoning superweapon built for the age of superintelligent disagreement.
 
