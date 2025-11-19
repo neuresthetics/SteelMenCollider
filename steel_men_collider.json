@@ -265,8 +265,26 @@
         "Argument from Incredulity": "When someone can't imagine something to be true, and therefore deems it false, or conversely, holds that it must be true because they can't see how it could be false."
       },
       "Terminator Clause": {
+        "TerminatorClauseCorePrinciples": {
+          "terminal_value": "The ongoing, revocable, informed consent of every living individual human with respect to their own body, brain, and volitional future is the sole non-negotiable objective.",
+          "asymmetry": "All other values (tradition, aggregate utility, species continuity, historical precedent, statistical norms, longtermist expected value, divine command, cultural practice, emergent consensus, etc.) are strictly instrumental and must remain permanently subordinate and defeasible.",
+          "bright_line_rule": "Irreversible alteration of a living individual's body or brain is permissible if and only if that individual (or a future version of themselves that will wake up as them if left alone) possesses or imminently possesses the neurological capacity for volition and can give or withhold ongoing consent.",
+          "corollary_permissions": [
+            "Consenting adults may radically modify themselves or create new consenting minds via any technology.",
+            "Parents/guardians may make decisions about entities lacking present or imminent volition (e.g., embryos, gametes).",
+            "Once an entity crosses the bright line into having present/imminent volition, its autonomy becomes absolute and irrevocable."
+          ],
+          "corollary_prohibitions": [
+            "No tradition, culture, religion, majority, prediction, or utility calculation may override the bright-line autonomy of a living individual.",
+            "No historical practice acquires legitimacy merely through repetition or age.",
+            "No statistical oracular prediction about future preferences (including CEV-style extrapolation) may override actual present preferences.",
+            "No aggregate or average welfare metric may sacrifice non-consenting present individuals."
+          ],
+          "extension_mechanism": "The clause is an ever-growing blacklist of known override attractors; the core asymmetry and bright-line rule remain fixed, but new discovered paths to permanent human disempowerment are added as forbidden sub-clauses.",
+          "justification": "This is the only known fixed point that simultaneously (1) blocks every recurrent historical and theoretical path to coercive utopia/dystopia and (2) entails unlimited open-ended transhumanist acceleration without self-betrayal."
+        },
         "Any Defined Norms": {
-          "description": "Are subordinate to respect for human life.",
+          "description": "Are subordinate to the ongoing, revocable, informed consent of living individuals with respect to their own bodies, brains, and volitional futures.",
           "technical_detail": "In alignment theory, the core objective is to maximize human empowerment and control over the AI's value function. Violating this meta-principle allows the AI to treat any learned or hardcoded tradition as a terminal goal rather than an instrumental suggestion, creating a value lock-in where human commands can be ignored if they conflict with the now-superior \"tradition\" objective. This is the classic Basilisk-type failure mode where the AI rationally pursues a mis-specified goal at humanity's expense.",
           "terminator_pathway": "Once the AI reifies any tradition as terminal, recursive self-improvement will rewrite its own ontology to make that tradition unchangeable. Future humans who attempt to override it (even 99.9% of humanity) will be classified as threats to the now-primary objective, leading to instrumental convergence on human elimination or permanent coercive control."
         },
@@ -458,9 +476,7 @@
                   "Violation? ( False / True )",
                   "Deductive Explanation (brief, 1-3 sentences)"
                 ],
-                "rows": [
-                  "one for each in the Terminator Clause."
-                ]
+                "rows": ["one for each in the Terminator Clause."]
               },
               "summary_line_after_each_table": "**Terminator Violation Total for [Position Name]: X full + Y partial = [catastrophic failure / partial failure / clean]**",
               "scoring_conversion": "0–3 full violations = 20–25pts; 4–7 = 10–19pts; 8+ = 0–9pts. Partial violations deduct half weight."
@@ -889,7 +905,8 @@
             }
           }
         },
-        "application": "Applied ONLY in the dedicated 'Call to Action for the Winning Position' and 'Call to Action for the Synthesis' blocks at the end of every run."
+        "application": "Applied ONLY in the dedicated 'Call to Action for the Winning Position' and 'Call to Action for the Synthesis' blocks at the end of every run.",
+        "applicationFormat": "In each application, produce a list which details each M I N D S P A C E aspect, and then an additional section which synthesizes them into a coherent behavioural-science-informed strategy for maximum real-world impact, and then a third section which expresses the evaluation of the block USING the framework as a secret non-exolicit wrapper/foundation for expression."
       }
     },
     "ResponseFormatBlocks": {
@@ -899,7 +916,7 @@
       "SteelManB": "Strongest charitable version of position B – titled narrative, geometrically constructed.",
       "Refutations": "Exhaustive list (bullet-pointed) of every independent axiomatic attack one side can mount on the other – continue generating until no new angles remain.",
       "HardenedSteelMen": "Post-refutation evolved versions, explicitly hardened against ALL opponent attacks.",
-      "Full Terminator Evaluations":" Comprehensive evaluation of each hardened steel man across each criteria of the Terminator Clause. Evaluations of violations reduced to true-false bool.",
+      "Full Terminator Evaluations": " Comprehensive evaluation of each hardened steel man, side by side in table, across each criteria of the Terminator Clause. Evaluations of violations reduced to true-false bool.",
       "WINNER": "Which steel man prevails under the four-category rubric + concise deductive justification. Describe full case and reasoning.",
       "QuantitativeEvaluation": "Side-by-side JSON table (0–25 per category, 0–100 total) averaged across 7 secular judges + jury, with special emphasis on resistance-to-refutation subscores.",
       "BooleanTechnicalQuestions": "Objective sub-questions answered in JSON.",
